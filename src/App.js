@@ -1,9 +1,14 @@
 import "./modules/index.css";
+import { BsChatDotsFill } from "react-icons/bs";
 
 function App() {
   return (
     <div className="App">
-      <h1 className="test">hello world</h1>
+      <div className="chatWidgetParent">
+        <div className="icon">
+          <BsChatDotsFill size={50}/>
+        </div>
+      </div>
     </div>
   );
 }

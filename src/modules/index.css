@@ -1,4 +1,54 @@
-body {
-  background-color: black;
+.App {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.chatWidgetParent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: maroon;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
+.chatWidgetParent::before,
+.chatWidgetParent::after {
+  position: absolute;
+  border-radius: 50%;
+  content: "";
+  z-index: -1;
+  border: 1px solid maroon;
+  animation: pulse 2s ease-out infinite;
+  animation-play-state: paused;
+  display: none;
+}
+
+.chatWidgetParent::before {
+  height: 87px;
+  width: 87px;
+}
+
+.chatWidgetParent::after {
+  height: 95px;
+  width: 95px;
+}
+
+.chatWidgetParent:hover::before,
+.chatWidgetParent:hover::after  {
+  display:block;
+  animation-play-state: running;
+}
+
+@keyframes pulse {
+  100% {
+    transform: scale(1.15);
+  }
+}
+
+.icon {
   color: white;
 }
