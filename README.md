@@ -26,21 +26,11 @@
 
 ## Media
 
-Coming soon
+![siteGif](./src/assets/chatWidget.gif)
 
 ## Installation
 
-Clone this repository or copy/paste files:
-
-1) 
-
-To install icons:
-
-Via the command-line, run 
-
-npm install react-icons --save
-
-3) Type npm run start to restart the server.
+Coming Soon
 
 ## Demo
 

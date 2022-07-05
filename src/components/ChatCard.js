@@ -1,5 +1,4 @@
 import { useState } from "react";
-// import InteractiveFeedback from "./InteractiveFeedback";
 import "../modules/chatCard.css";
 import { GrFormClose } from "react-icons/gr";
 import avatar from "../assets/photos/avatar.jpg";
