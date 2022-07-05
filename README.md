@@ -10,7 +10,9 @@
 
 - [Media](#Media)
 
-- [Deployed Site](#deployed-site)
+- [Installation](#Installation)
+
+- [Demo](#demo)
 
 - [Features](#Features)
 
@@ -26,9 +28,23 @@
 
 Coming soon
 
-## Deployed Site
+## Installation
 
-Coming Soon
+Clone this repository or copy/paste files:
+
+1) 
+
+To install icons:
+
+Via the command-line, run 
+
+npm install react-icons --save
+
+3) Type npm run start to restart the server.
+
+## Demo
+
+Link Coming Soon
 
 ## Features
 

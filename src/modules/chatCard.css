@@ -1,0 +1,174 @@
+.chatCardComponent {
+  max-width: 320px;
+}
+
+.cardParent {
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  width: fit-content;
+  border-radius: 8px;
+  box-shadow: 1px 7px 10px 4px rgb(226, 226, 226);
+  /* z-index: -1; */
+  margin-bottom: 15px;
+}
+
+.cardTop {
+  background-color: var(--platinum);
+  border-radius: 8px 8px 0 0;
+  padding: 20px 20px 0 20px;
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.headerInfo {
+  margin-left: 10px;
+}
+
+.cardTop h3 {
+  font-size: 20px;
+}
+
+.cardTop p {
+  font-size: 13px;
+}
+
+.headerImg {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.cardTop::before {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  content: "";
+  background-color: lime;
+  border-radius: 50%;
+  top: 57px;
+  left: 60px;
+  border: 2px solid white;
+}
+
+.closeIcon {
+  position: relative;
+  left: 35px;
+  top: -15px;
+  cursor: pointer;
+}
+
+.cardBottom {
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 15px 20px 20px 20px;
+}
+
+.currentTime {
+  align-self: center;
+  color: gray;
+  font-size: 13px;
+}
+
+.hostGreetingParent {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.textImg {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+#hostGreeting {
+  background-color: var(--platinum);
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 5px;
+  margin-left: 10px;
+  display: none;
+}
+
+#textBubbles {
+  position: relative;
+  content: "";
+  width: 70px;
+  height: 30px;
+  background-color: var(--platinum);
+  border-radius: 20px;
+  margin-left: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content:center;
+  align-items: center;
+}
+
+.bubbles {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  margin-left: 4px;
+  animation: bounce 1s ease-out infinite;
+}
+
+@keyframes bounce {
+  100% {
+    transform: translateY(-2.5px);
+  }
+}
+
+.bubbles:nth-child(1) {
+  background-color: var(--dark-gray);
+  margin-left: -4px;
+  animation-delay: 0ms;
+}
+
+.bubbles:nth-child(2) {
+  background-color: var(--medium-gray);
+  animation-delay: 222ms;
+}
+
+.bubbles:nth-child(3) {
+  background-color: var(--light-gray);
+  animation-delay: 555ms;
+}
+
+
+.feedbackDiv {
+  background-color: var(--platinum);
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 5px;
+  width: fit-content;
+  margin: 2px 2px 2px 40px;
+  text-decoration: underline;
+}
+
+.interactiveChat,
+.buttonGroup {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.interactiveChat {
+  margin-top: 30px;
+}
+
+.interactiveChat h3 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.interactiveChat button {
+  background-color: var(--copper-rose);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 2px;
+  width: fit-content;
+  color: white;
+  border: none;
+}
