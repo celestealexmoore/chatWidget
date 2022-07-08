@@ -8,8 +8,7 @@
   flex-flow: column nowrap;
   width: fit-content;
   border-radius: 8px;
-  box-shadow: 1px 7px 10px 4px rgb(226, 226, 226);
-  /* z-index: -1; */
+  box-shadow: 1px 7px 10px 4px var(--platinum);
   margin-bottom: 15px;
 }
 
@@ -66,7 +65,7 @@
 
 .currentTime {
   align-self: center;
-  color: gray;
+  color: var(--dark-gray);
   font-size: 13px;
 }
 

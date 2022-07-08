@@ -1,26 +1,10 @@
-:root {
-  --copper-rose: #A26769;
-  --old-mauve: rgb(112, 32, 32);
-  --platinum: rgb(241, 241, 241);
-  --dark-gray: rgb(136, 136, 136);
-  --medium-gray: rgb(167, 167, 167);
-  --light-gray: rgb(197, 196, 196);
-}
-
-/* .App {
-  display: flex;
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
-} */
-
 .widgetParent {
   display: flex;
   flex-flow: column nowrap;
   width: fit-content;
   min-height: 500px;
   position: absolute;
-  top: calc(100% - 510px);
+  top: calc(100% - 500px);
   right: calc(3%);
 }
 
@@ -42,7 +26,7 @@
   border-radius: 50%;
   content: "";
   z-index: -1;
-  border: 1px solid maroon;
+  border: 1px solid var(--old-mauve);
   animation: pulse 2s ease-out infinite;
   animation-play-state: paused;
   display: none;
@@ -59,8 +43,8 @@
 }
 
 .chatWidget:hover::before,
-.chatWidget:hover::after  {
-  display:block;
+.chatWidget:hover::after {
+  display: block;
   animation-play-state: running;
 }
 

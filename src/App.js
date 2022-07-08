@@ -1,28 +1,13 @@
-import { useState } from "react";
-import "./modules/index.css";
-import { BsChatDotsFill } from "react-icons/bs";
-import ChatCard from "./components/ChatCard";
+import "./css-styles/index.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
+import Widget from "./components/Widget";
 
 function App() {
-  const [displayChatCard, setDisplayChatCard] = useState(false);
-
-  function showChatCard() {
-    setDisplayChatCard(!displayChatCard);
-  }
 
   return (
     <div className="App">
-      <div className="widgetParent">
-        <ChatCard
-          visible={displayChatCard}
-          setDisplayChatCard={setDisplayChatCard}
-        />
-        <div onClick={showChatCard} className="chatWidget">
-          <div className="icon">
-            <BsChatDotsFill size={50} />
-          </div>
-        </div>
-      </div>
+      <Widget />
     </div>
   );
 }
