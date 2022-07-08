@@ -2,7 +2,7 @@
 
 # chatWidget
 
-### _An animated chat widget that operates onClick with preset FAQ for users to choose from, and responses that populate accordingly._
+### _An animated chat widget that operates onClick with pre-set FAQ for users to choose from, and responses that populate accordingly._
 
 </div>
 
