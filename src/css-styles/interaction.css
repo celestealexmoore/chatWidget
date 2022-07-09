@@ -1,0 +1,43 @@
+.feedbackParent {
+  background-color: var(--platinum);
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  padding: 5px;
+  margin-top: 5px;
+  margin-left: 40px;
+}
+
+.feedbackDiv {
+  color: black;
+}
+
+.feedbackDiv:hover {
+  color: var(--copper-rose);
+}
+
+.interactiveChat,
+.buttonGroup {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.interactiveChat {
+  margin-top: 30px;
+}
+
+.interactiveChat h3 {
+  font-size: 17px;
+  font-weight: 700;
+}
+
+.interactiveChat button {
+  background-color: var(--copper-rose);
+  border-radius: 8px;
+  padding: 10px;
+  margin-bottom: 2px;
+  width: fit-content;
+  color: white;
+  border: none;
+}
