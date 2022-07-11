@@ -1,10 +1,9 @@
 .widgetParent {
   display: flex;
   flex-flow: column nowrap;
-  width: fit-content;
   min-height: 500px;
   position: absolute;
-  top: calc(100% - 500px);
+  top: calc(100% - 520px);
   right: calc(3%);
 }
 

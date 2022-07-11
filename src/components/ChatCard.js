@@ -7,7 +7,7 @@ moment().format();
 
 export default function ChatCard(props) {
   if (props.visible) {
-    setTimeout(hideBubbles, 5000);
+    setTimeout(hideBubbles, 3000);
   }
 
   function hideBubbles() {
@@ -38,7 +38,7 @@ export default function ChatCard(props) {
         <div className="cardBottom">
           <div className="currentTime">{moment().format("h:mm")}</div>
           <div className="hostGreetingParent">
-            <img className="textImg" src={avatar} alt="Image of host" />
+            <img className="chatAvatar" src={avatar} alt="Image of host" />
 
             <div id="animatedChatBubbles">
               <div id="textBubbles">

@@ -1,15 +1,17 @@
-.feedbackParent {
-  background-color: var(--platinum);
+#feedbackParent {
+  margin-top: 5px;
+  margin-left: 40px;
   border-top-right-radius: 8px;
   border-bottom-left-radius: 8px;
   border-bottom-right-radius: 8px;
-  padding: 5px;
-  margin-top: 5px;
-  margin-left: 40px;
+  padding: 7px;
+  width: 232px;
+  height: 62px;
 }
 
 .feedbackDiv {
   color: black;
+  font-size: 14px;
 }
 
 .feedbackDiv:hover {
@@ -28,16 +30,21 @@
 }
 
 .interactiveChat h3 {
-  font-size: 17px;
+  font-size: 16px;
   font-weight: 700;
 }
 
 .interactiveChat button {
   background-color: var(--copper-rose);
   border-radius: 8px;
-  padding: 10px;
+  padding: 7px;
   margin-bottom: 2px;
   width: fit-content;
   color: white;
   border: none;
+  font-size: 14px;
+}
+
+.interactiveChat button:hover {
+  background-color: var(--old-mauve);
 }

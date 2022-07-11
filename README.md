@@ -10,8 +10,6 @@
 
 - [Media](#Media)
 
-- [Installation](#Installation)
-
 - [Demo](#demo)
 
 - [Features](#Features)
@@ -28,9 +26,6 @@
 
 ![siteGif](./src/assets/chatWidget.gif)
 
-## Installation
-
-Coming Soon
 
 ## Demo
 
@@ -38,7 +33,7 @@ Link Coming Soon
 
 ## Features
 
-Single-page application built with HTML, CSS, Bootstrap/ Bootstrap Icons JavaScript and React.js
+Built with HTML, CSS, Bootstrap(Icons) JavaScript and React.js
 
 ## Contributors
 
@@ -51,7 +46,7 @@ celestealexmoore@gmail.com.
 
 ## Project Status
 
-In Progress
+Completed
 
 ---
 

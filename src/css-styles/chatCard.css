@@ -1,5 +1,5 @@
 .chatCardComponent {
-  max-width: 320px;
+  max-width: 312px;
 }
 
 .cardParent {
@@ -74,7 +74,7 @@
   flex-wrap: nowrap;
 }
 
-.textImg {
+.chatAvatar {
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -88,6 +88,7 @@
   padding: 5px;
   margin-left: 10px;
   display: none;
+  font-size: 16px;
 }
 
 #textBubbles {
@@ -100,7 +101,7 @@
   margin-left: 10px;
   display: flex;
   flex-flow: row nowrap;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
 }
 

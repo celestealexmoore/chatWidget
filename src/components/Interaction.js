@@ -7,8 +7,8 @@ export default function Interaction() {
 
   const responses = [
     "Follow this link to cook up something nice!",
-    "You can view the books I've offered, here.",
-    "Let's connect on LinkedIn!",
+    "You can view the list of books currently available, here.",
+    "Let's connect on LinkedIn, or send me an email!",
   ];
 
   const userFeedback = [
@@ -20,6 +20,7 @@ export default function Interaction() {
   function switchFeedback(e) {
     if (feedback === false) {
       setFeedback(true);
+      document.getElementById('feedbackParent').style.backgroundColor = "var(--platinum)"
     }
 
     switch (e.target.id) {
@@ -37,7 +38,7 @@ export default function Interaction() {
 
   return (
     <div className="interactionParent">
-      <div className="feedbackParent">
+      <div id="feedbackParent">
         {feedback ? (
           <a href="#" className="feedbackDiv">
             {appendedResponse}
