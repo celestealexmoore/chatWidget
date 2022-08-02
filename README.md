@@ -29,7 +29,7 @@
 
 ## Demo
 
-Link Coming Soon
+[Here is the link to view the chat widget.](https://celestealexmoore.github.io/chat_Widget)
 
 ## Features
 
